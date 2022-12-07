@@ -1,0 +1,1234 @@
+[
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q10282774"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Flint"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3574951"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Zayne Carrick"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q7888620"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tahiri Veila"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q907262"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Rosh Penin"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2254810"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Corran Horn"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1060074"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Zett Jukassa"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2250258"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tan Yuster"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3984943"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tesar Sebatyne"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3817177"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Krynda Draay"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q16529784"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Atton Rand"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3612345"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Allana Solo"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51755"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ahsoka Tano"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2704623"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ben Skywalker"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2481658"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yaddle"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q5677817"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tru Veld"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2248111"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cin Drallig"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3873469"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nayama"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q9298092"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Qu Rahn"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1049155"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Shaak Ti"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q10751976"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vima-Da-Boda"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1998913"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Aayla Secura"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3944192"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saba Sebatyne"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51761"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Starkiller"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q897831"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kyp Durron"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q924583"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Exar Kun"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q77001957"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Grogu"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1080988"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ferus Olin"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51806"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Aurra Sing"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3806350"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jaled Dur"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3857525"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Miko Reglia"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q10319753"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Skere Kaan"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51742"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Agen Kolar"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51746"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Luke Skywalker"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q77001957"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Grogu"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male organism"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1061753"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ikrit"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1245387"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Rahm Kota"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51752"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Anakin Skywalker"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q14414683"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Danni Quee"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3644527"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Brianna"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51721"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bastila Shan"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51748"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mara Jade"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51797"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Leia Organa"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1087845"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jacen Solo"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2069214"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Anakin Solo"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3621382"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Arca Jeth"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2297428"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Luminara Unduli"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1188045"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Quinlan Vos"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q540548"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Darth Bandon"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3503755"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ajunta Pall"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2253906"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jorus C'baoth"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q15141734"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Visas Marr"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3676638"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cilghal"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3011806"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Daeshara'cor"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3473874"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Satele Shan"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2250762"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Darth Traya"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2264289"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jaina Solo"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51735"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kyle Katarn"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3724798"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Empatojayos Brand"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2738648"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Desann"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3782512"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Halagad Ventor"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q591031"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oppo Rancisis"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3870572"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nat Skywalker"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3609611"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Alema Rar"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2704608"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Adi Gallia"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1073504"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tenel Ka"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1055274"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Juhani"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q51730"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yoda"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male organism"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2632312"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sifo-Dyas"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3621078"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Aqinos"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2704496"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Meetra Surik"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3198423"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kol Skywalker"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3194443"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kazdan Paratus"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3858682"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mira"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3856094"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mical"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2755075"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jolee Bindo"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "male"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2704981"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Barriss Offee"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    },
+    {
+        "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2787722"
+        },
+        "itemLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Maris Brood"
+        },
+        "genderLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "female"
+        }
+    }
+]
