@@ -1,4 +1,4 @@
-import json
+import re
 import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
@@ -7,15 +7,19 @@ from pyvis.network import Network
 endpoint_url = "https://query.wikidata.org/sparql"
 
 query = """
-SELECT DISTINCT ?item ?itemLabel ?genderLabel WHERE {
+SELECT DISTINCT ?jediLabel ?genderLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
   {
-    SELECT DISTINCT ?item ?gender WHERE {
-      ?item p:P106 ?isJedi.
-      ?isJedi (ps:P106/(wdt:P279*)) wd:Q51724.
-      OPTIONAL{?item wdt:P21 ?gender.}
+ 	SELECT ?jedi ?gender WHERE {
+
+  	{?jedi p:P106 ?isJedi0.
+    	?isJedi0 (ps:P106/(wdt:P279*)) wd:Q51724.}
+  	UNION
+  	{?jedi p:P463 ?isJedi1.
+    	?isJedi1 (ps:P463/(wdt:P279*)) wd:Q51724.}
+ 	 
+  	?jedi wdt:P21 ?gender.
     }
-    LIMIT 1000
   }
 }"""
 
@@ -33,9 +37,12 @@ results = get_results(endpoint_url, query)
 finalJson = []
 for result in results["results"]["bindings"]:
     dict = {}
-    dict["Jedi"] = result["itemLabel"]["value"]
-    dict["Gender"] = result["genderLabel"]["value"]
-    finalJson.append(dict)
+    if(("jediLabel" in result) & ("genderLabel" in result)):
+      # Remove rows with no label (resulting label is Q + id)
+      if(not(re.search("^Q[0-9]+$", result["jediLabel"]["value"]))):
+        dict["Jedi"] = result["jediLabel"]["value"]
+        dict["Gender"] = result["genderLabel"]["value"]
+        finalJson.append(dict)
 
 ## Saving result in csv file ##
 

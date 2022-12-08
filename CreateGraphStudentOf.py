@@ -7,16 +7,18 @@ import networkx as nx
 endpoint_url = "https://query.wikidata.org/sparql"
 
 query = """
-SELECT DISTINCT ?item ?itemLabel ?genderLabel ?studentLabel WHERE {
+SELECT DISTINCT ?jediLabel ?studentLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
   {
-    SELECT ?item ?gender ?student WHERE {
-      ?item p:P106 ?statement0.
-      ?statement0 (ps:P106/(wdt:P279*)) wd:Q51724.
-      OPTIONAL{?item wdt:P21 ?gender.}
-      OPTIONAL{?item wdt:P802 ?student.}
+	SELECT ?jedi ?student WHERE {
+  	{?jedi p:P106 ?isJedi0.
+   	 ?isJedi0 (ps:P106/(wdt:P279*)) wd:Q51724.}
+  	UNION
+      {?jedi p:P463 ?isJedi1.
+   	 ?isJedi1 (ps:P463/(wdt:P279*)) wd:Q51724.}
+ 	 
+  	?jedi wdt:P802 ?student.
     }
-    LIMIT 1000
   }
 }"""
 
@@ -33,11 +35,11 @@ def get_results(endpoint_url, query):
 results = get_results(endpoint_url, query)
 finalJson = []
 for result in results["results"]["bindings"]:
-
+    print(result)
     dict = {}
     if "studentLabel" in result:
         dict["Student"] = result["studentLabel"]["value"]
-        dict["Master"] = result["itemLabel"]["value"]
+        dict["Master"] = result["jediLabel"]["value"]
         finalJson.append(dict)
 ####################
 
