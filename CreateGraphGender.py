@@ -1,6 +1,8 @@
 import json
 import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
+import pandas as pd
+from pyvis.network import Network
 
 endpoint_url = "https://query.wikidata.org/sparql"
 
@@ -31,11 +33,39 @@ results = get_results(endpoint_url, query)
 finalJson = []
 for result in results["results"]["bindings"]:
     dict = {}
-    dict["Source"] = result["itemLabel"]["value"]
-    dict["Target"] = result["genderLabel"]["value"]
-    dict["Type"] = "Undirected"
-    dict["weight"] = "2"
+    dict["Jedi"] = result["itemLabel"]["value"]
+    dict["Gender"] = result["genderLabel"]["value"]
     finalJson.append(dict)
 
-with open("exemple.json", "w") as outfile:
-    json.dump(finalJson, outfile, indent=4)
+## Saving result in csv file ##
+
+df = pd.DataFrame(finalJson)
+df.to_csv('genders.csv', index=False, header=True)
+
+####################
+
+## Creating graph ##
+
+G = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
+genders = []
+
+# Saving nodes
+for i in df.index:
+    jedi = df['Jedi'][i]
+    gender = df['Gender'][i]
+
+    if not(gender in genders):
+      genders.append(gender)
+      G.add_node(gender, title=gender,group=genders.index(gender))
+    
+    # Groups (for colors) : 1 = master; 2 = student; 3 = both
+    G.add_node(jedi, title=jedi,group=genders.index(gender))
+    G.add_edge(jedi, gender)
+
+####################
+
+# create vis network
+net = Network(width=1000, height=600)
+net.show_buttons(filter_=['physics'])
+# show
+G.show("genders.html")
