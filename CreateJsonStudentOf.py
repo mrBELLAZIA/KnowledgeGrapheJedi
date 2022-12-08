@@ -1,4 +1,3 @@
-import json
 import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
@@ -30,35 +29,57 @@ def get_results(endpoint_url, query):
     sparql.setReturnFormat(JSON)
     return sparql.query().convert()
 
-
+## Sparql request ##
 results = get_results(endpoint_url, query)
 finalJson = []
-print(results)
 for result in results["results"]["bindings"]:
 
     dict = {}
-    print(result)
     if "studentLabel" in result:
-        dict["Target"] = result["studentLabel"]["value"]
-        dict["Source"] = result["itemLabel"]["value"]
-        dict["Type"] = "Undirected"
-        dict["weight"] = "2"
+        dict["Student"] = result["studentLabel"]["value"]
+        dict["Master"] = result["itemLabel"]["value"]
         finalJson.append(dict)
+####################
 
-# with open("exemple.json", "w") as outfile:
-#     json.dump(finalJson, outfile, indent=4)
-
+## Saving result in csv file ##
 
 df = pd.DataFrame(finalJson)
-df.to_csv('my_file.csv', index=False, header=True)
+df.to_csv('students.csv', index=False, header=True)
 
-#network from csv
-G = nx.from_pandas_edgelist(df,
-                            source='Source',
-                            target='Target',
-                            edge_attr='weight')
+####################
 
-net = Network(notebook=True, width=1000, height=600)
+## Creating graph ##
+
+G = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
+students = []
+masters = [] 
+
+# Saving students and masters
+for i in df.index:
+    student = df['Student'][i]
+    master = df['Master'][i]
+
+    if not(student in students):
+        students.append(student)
+    if not(master in masters):
+        masters.append(master)
+
+# Saving nodes
+for i in df.index:
+    student = df['Student'][i]
+    master = df['Master'][i]
+
+    # Groups (for colors) : 1 = master; 2 = student; 3 = both
+    G.add_node(master, title=master,group=3 if(master in students) else 1)
+    G.add_node(student, title=student,group=3 if(student in masters) else 2)
+
+for i in df.index:
+    G.add_edge(df['Master'][i], df['Student'][i])
+
+####################
+
+# create vis network
+net = Network(width=1000, height=600)
 net.show_buttons(filter_=['physics'])
-net.from_nx(G)
-net.show("examplev3.html")
+# show
+G.show("students.html")

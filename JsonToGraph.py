@@ -4,7 +4,7 @@ from pyvis.network import Network
 
 # df = pd.read_json ('exemple.json')
 # df.to_csv ('Test.csv', index = None)
-df = pd.read_csv("out.csv")
+df = pd.read_csv("my_file.csv")
 
 
 G = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
@@ -31,4 +31,4 @@ net.show_buttons(filter_=['physics'])
 # load the networkx graph
 print(type(G))
 # show
-G.show("examplev2.html")
+G.show("students.html")
