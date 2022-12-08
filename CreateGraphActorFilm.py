@@ -60,9 +60,6 @@ def processrating(row):
 
 results = get_results(endpoint_url, query)
 
-with open("sample.json", "w") as outfile:
-    json.dump(results["results"]["bindings"], outfile, indent=4)
-
 finalJson = []
 for result in results["results"]["bindings"]:
   if "scoreLabel" in result:
