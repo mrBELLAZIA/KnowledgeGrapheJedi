@@ -61,11 +61,12 @@ for i in df.index:
     jedi = df['Jedi'][i]
     gender = df['Gender'][i]
 
+    # removing row if no gender found
     if not(gender in genders):
       genders.append(gender)
       G.add_node(gender, title=gender,group=genders.index(gender))
     
-    # Groups (for colors) : 1 = master; 2 = student; 3 = both
+    # Groups (for colors) : according to gender index
     G.add_node(jedi, title=jedi,group=genders.index(gender))
     G.add_edge(jedi, gender)
 
@@ -74,5 +75,5 @@ for i in df.index:
 # create vis network
 net = Network(width=1000, height=600)
 net.show_buttons(filter_=['physics'])
-# show
+# build html view page
 G.show("genders.html")

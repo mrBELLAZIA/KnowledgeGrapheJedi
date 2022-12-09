@@ -35,7 +35,6 @@ def get_results(endpoint_url, query):
 results = get_results(endpoint_url, query)
 finalJson = []
 for result in results["results"]["bindings"]:
-    print(result)
     dict = {}
     if "studentLabel" in result:
         dict["Student"] = result["studentLabel"]["value"]
@@ -66,7 +65,7 @@ for i in df.index:
     if not(master in masters):
         masters.append(master)
 
-# Saving nodes
+# Creating nodes
 for i in df.index:
     student = df['Student'][i]
     master = df['Master'][i]
@@ -75,6 +74,7 @@ for i in df.index:
     G.add_node(master, title=master,group=3 if(master in students) else 1)
     G.add_node(student, title=student,group=3 if(student in masters) else 2)
 
+#Creating relations
 for i in df.index:
     G.add_edge(df['Master'][i], df['Student'][i])
 
@@ -82,6 +82,6 @@ for i in df.index:
 
 # create vis network
 net = Network(width=1000, height=600)
-net.show_buttons(filter_=['physics'])
-# show
+net.show_buttons()
+# build html view page
 G.show("students.html")

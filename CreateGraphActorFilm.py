@@ -71,9 +71,7 @@ for result in results["results"]["bindings"]:
     finalJson.append(dict)
 
 df = pd.DataFrame(finalJson)
-# df = pd.read_csv(results, sep=",", header=None)
 df = df.dropna()
-#df = df.drop(['jedi'], axis=1) #on a pas besoin de cette colonne
 df = df.apply(processrating, axis=1) #on normalise les notes
 
 df = df.groupby(['jediLabel', 'actorLabel', 'filmLabel']).median() #On fait la medianne des notes d'un même film pour un même acteur
@@ -85,12 +83,14 @@ df.to_csv('actorfilm.csv', index=True, header=True)
 G = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
 #parcourir le fichier csv
 
+# creating nodes
 for i, row in df.iterrows():
-  G.add_node(df['jediLabel'][i], title=df['jediLabel'][i],group=1, color="#OOOOOO")
-  G.add_node(df['actorLabel'][i], title=df['actorLabel'][i],group=2,color="#00FF00")
-  G.add_node(str(df['scoreLabel'][i]), title=str(df['scoreLabel'][i]),group=3,color="red")
-  G.add_node(str(df['filmLabel'][i]), title=str(df['filmLabel'][i]),group=4,color="red")
+  G.add_node(df['jediLabel'][i], title=df['jediLabel'][i],group=1)
+  G.add_node(df['actorLabel'][i], title=df['actorLabel'][i],group=2)
+  G.add_node(str(df['scoreLabel'][i]), title=str(df['scoreLabel'][i]),group=3)
+  G.add_node(str(df['filmLabel'][i]), title=str(df['filmLabel'][i]),group=4)
 
+# creating relations
 for i in df.index:
   G.add_edge(df['jediLabel'][i], df['actorLabel'][i], value=str(df['scoreLabel'][i]))
   G.add_edge(df['actorLabel'][i], str(df['filmLabel'][i]), value=1)
@@ -101,5 +101,5 @@ net = Network(notebook=True, width=1000, height=600)
 net.show_buttons(filter_=['physics'])
 # load the networkx graph
 print(type(G))
-# show
+# build html view page
 G.show("actorfilm.html")
